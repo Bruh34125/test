@@ -1,0 +1,10 @@
+{
+  "id": "echo_shift",
+  "name": "EchoShift",
+  "description": "Actions reverberate. Kindness weakens violence over time.",
+  "authors": ["prototype"],
+  "special_rule": "ACT-first AU: dialogue hints and social pressure.",
+  "enemy_hp": 28,
+  "reward_item": "mercy_charm",
+  "act_line": "Your words resonate across split timelines."
+}

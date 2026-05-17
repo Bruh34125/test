@@ -1,0 +1,10 @@
+{
+  "id": "gilded_rune",
+  "name": "GildedRune",
+  "description": "A ceremonial AU where victory grants ritual tools.",
+  "authors": ["prototype"],
+  "special_rule": "Defensive enemies; item synergy emphasized.",
+  "enemy_hp": 42,
+  "reward_item": "rune_sigil",
+  "act_line": "You recite an old oath from a golden tablet."
+}
