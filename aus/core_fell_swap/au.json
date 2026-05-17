@@ -1,0 +1,11 @@
+{
+  "id": "core_fell_swap",
+  "name": "CoreFellSwap",
+  "description": "A stitched AU where roles, tone, and timeline stability are all inverted.",
+  "authors": ["prototype"],
+  "special_rule": "High aggression: base +2 FIGHT bonus.",
+  "enemy_hp": 34,
+  "fight_bonus": 2,
+  "reward_item": "blade_fragment",
+  "act_line": "You challenge the script itself."
+}
