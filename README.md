@@ -4,7 +4,7 @@ This is **piece 3**: a playable multi-AU prototype with cross-AU relic progressi
 
 ## Features
 
-- 3 AUs with unique metadata (`core_fell_swap`, `echo_shift`, `gilded_rune`)
+- 3 starter AUs with unique metadata (`core_fell_swap`, `echo_shift`, `gilded_rune`)
 - AU switching in overworld (`Q`/`E`)
 - Battle behavior driven by AU data (`enemy_hp`, `fight_bonus`, `act_line`, `reward_item`)
 - Cross-AU inventory rewards and synergies:
@@ -13,6 +13,20 @@ This is **piece 3**: a playable multi-AU prototype with cross-AU relic progressi
   - `rune_sigil`: tracked for triune ending
 - Convergence/ending scene (`C` in overworld) with route evaluation
 - Save/load persistence with JSON
+- Bulk AU import script for Fandom Category:AUs (with NSFW name filtering)
+
+## Import many AUs from Fandom
+
+Use the provided importer script to crawl category pagination and generate `aus/<id>/au.json` entries:
+
+```bash
+python scripts/import_aus_from_fandom.py
+```
+
+Importer behavior:
+- Source: `https://undertale-au.fandom.com/wiki/Category:AUs`
+- Excludes AU names that match NSFW keywords (`nsfw`, `18+`, `porn`, `hentai`, `lust`, etc.)
+- Writes import summary to `data/au_import_report.json`
 
 ## Controls
 
